@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payoo | Login</title>
+    <title>Payoo | Home</title>
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <!-- Tailwind + Daisy -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -27,28 +27,18 @@
 </head>
 
 <body class="min-h-screen max-w-md bg-base-200 mx-auto">
-    <div class="logo w-[200px] mx-auto pt-32">
-        <img src="assets/Logo-full.png" alt="" srcset="">
-    </div>
-
-    <div class="form pt-10 ">
-        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-3xl bg-[#FFFFFF]">
-            <div class="card-body">
-                <fieldset class="fieldset">
-                    <label class="label font-medium text-[16px]">Mobile Number</label>
-                    <input type="email" id="input-number" class="input rounded-full bg-[#F4F5F7]" maxlength="11"
-                        minlength="11" placeholder="Enter your number" />
-                    <label class="label font-medium text-[16px]">4 Digit Pin</label>
-                    <input type="password" id="input-pin" class="input rounded-full bg-[#F4F5F7]" maxlength="4"
-                        minlength="4" placeholder="Enter 4 Digit Pin" />
-
-                    <button id="login-btn"
-                        class="btn btn-neutral mt-4 bg-[#3B25C1] text-[#FFFFFF] rounded-full">Login</button>
-                </fieldset>
+    <header class="border-b-2 border-gray-300">
+        <section class="w-12/12 mx-auto py-3 flex justify-between items-center">
+            <div class="left">
+                <div class="log">
+                    <img src="assets/logo.png" alt="" srcset="">
+                </div>
             </div>
-        </div>
-    </div>
-    <script src="js/login.js"></script>
+            <div class="right"></div>
+        </section>
+    </header>
+
+
 </body>
 
 </html>
